@@ -1,3 +1,18 @@
+```
+mvn exec:java -Dexec.mainClass="com.example.App"
+
+mvn exec:java
+
+mvn package
+java -cp target/hello-maven-1.0-SNAPSHOT.jar com.example.App
+
+mvn package
+java -cp target/hello-maven-1.0-SNAPSHOT.jar com.example.App
+
+mvn exec:java
+
+source ~/.zshrc && mvnrun
+```
 # Java Maven Hello World Project on Amazon Linux
 
 ## 1️⃣ Launch EC2 Instance
