@@ -1,4 +1,35 @@
 ```
+// Maven Project 
+
+rm -rf .mvn
+sudo yum update -y  
+sudo yum install git tree java-21-amazon-corretto maven -y  
+
+1. Install java 
+2. powershell >> java --version 
+3. install maven >> mvn -v 
+4. git --version 
+5. git clone https://github.com/atulkamble/java-maven-helloworld.git
+    cd java-maven-helloworld
+6. code .
+or open folder in vs code 
+7. 
+mvn clean 
+mvn validate 
+mvn compile 
+mvn test 
+mvn package 
+mvn verify 
+mvn install 
+mvn deploy 
+mvn clean deploy
+
+java -jar target/hello-maven-1.0-SNAPSHOT.jar
+
+// on windows 
+
+choco install maven -y
+
 mvn exec:java -Dexec.mainClass="com.example.App"
 
 mvn exec:java
