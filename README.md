@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ```
 // Maven Project 
 
@@ -379,3 +380,6 @@ Push to ECR
    ▼
 Deploy to EKS / Kubernetes
 ```
+=======
+# java-maven-project
+>>>>>>> e19e7ec77572e373c9de5810482b0fcd57852f08
